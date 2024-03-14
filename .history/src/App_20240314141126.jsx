@@ -3,7 +3,7 @@ import { Button, Typography } from '@mui/material';
 const App = () => {
   return (
     <div>
-      <Typography variant='body2' color='error'>
+      <Typography variant='body2' color='text.primary'>
         Hello
       </Typography>
       <Button
