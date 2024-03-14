@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
 import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider } from '@mui/material/styles';
 import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
 import App from './App';
 import theme from './theme';
@@ -15,5 +16,6 @@ root.render(
       <CssBaseline />
       <App/>
     </CssVarsProvider>
-  </React.StrictMode>
+    ,
+  </React.StrictMode>,
 );
