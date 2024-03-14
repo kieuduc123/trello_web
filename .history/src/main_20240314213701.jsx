@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
 import App from './App';
-import theme from './utils/theme';
+import theme from './theme';
+import ModeToggle from './utils/ModeToggle';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
